@@ -1,0 +1,24 @@
+1) idlj -fall Reverse.idl
+2) javac ReverseModule\*.java ReverseImpl.java ReverseServer.java ReverseClient.java
+
+3)Open another CMD window, and run:
+ tnameserv -ORBInitialPort 1050
+
+4) In your first CMD window, run:
+   java ReverseServer -ORBInitialPort 1050 -ORBInitialHost localhost
+
+5)Open a third CMD window, and run:
+  java ReverseClient -ORBInitialPort 1050 -ORBInitialHost localhost
+
+
+
+It should prompt:
+
+
+Enter String=
+Type something like:
+
+
+hello
+Output:
+Server Send olleh
