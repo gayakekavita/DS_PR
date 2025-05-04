@@ -1,1 +1,15 @@
+download mpi 
 
+paste mpi_44 file inside C drive 
+
+edit envirnomnet system varibale 
+  MPI_HOME= C:/
+
+path : bin cha location 
+
+
+run below command :
+
+javac -cp %MPJ_HOME%\lib\mpj.jar ArrSum.java 
+
+ mpjrun.bat -cp . -np 4 ArrSum
