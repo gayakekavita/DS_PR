@@ -13,3 +13,8 @@ run below command :
 javac -cp %MPJ_HOME%\lib\mpj.jar ArrSum.java 
 
  mpjrun.bat -cp . -np 4 ArrSum
+
+*************************************************************
+set MPJ_HOME=C:\Users\gayak\Downloads\mpj-v0_44\mpj-v0_44
+javac -cp "%MPJ_HOME%\lib\mpj.jar" DistributedSum.java
+"%MPJ_HOME%\bin\mpjrun.bat" -np 4 DistributedSum
