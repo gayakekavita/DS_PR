@@ -3,10 +3,10 @@ download mpi
 paste mpi_44 file inside C drive 
 
 edit envirnomnet system varibale 
-  MPI_HOME= C:/
+  MPI_HOME= C:/mpi
 
 path : bin cha location 
-
+  %MPI_HOME%\bin
 
 run below command :
 
